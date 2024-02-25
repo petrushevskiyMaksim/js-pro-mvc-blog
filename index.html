@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Practic MVC</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<h2>Новый пост</h2>
+
+		<input id="titleInput" type="text" />
+		<p id="titleError"></p>
+		<input id="textInput" type="text" />
+		<p id="textError"></p>
+		<button id="addPostBtn">Добавить пост</button>
+
+		<p id="error"></p>
+
+		<h2>Лента</h2>
+
+		<div id="posts">MVC</div>
+
+		<script src="./js/model.js"></script>
+		<script src="./js/view.js"></script>
+		<script src="./js/api.js"></script>
+		<script src="./js/controller.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
